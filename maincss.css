@@ -1,0 +1,77 @@
+/*archivo de estilo de la página Halloween*/
+body{ 
+  background-image: url(./bodyBackground.jpg);
+       
+}
+   
+
+#wrapper{ 
+   background-image: url(./fondoPantalla.jpg);
+   background-repeat: no-repeat;
+   margin:auto;
+   width:500px;
+   height: 503px;
+   position: relative;
+   font-family: 'metamorphous',cursive;
+   left: 400px;
+}
+@font-face {
+    font-family: first ;
+    src: url(./fuentes/Font1/GhastlyPanic.ttf);
+}
+@font-face {
+    font-family: second ;
+    src: url(./fuentes/Font1/NeedleteethPsycho.ttf);
+}
+
+h1{
+    position:absolute;
+    top: 20px;
+    left: -276px;
+     color: darkgoldenrod;
+     text-shadow: black 2px 2px,
+    black -2px 2px,
+    black -2px -2px,
+    black -2px -2px;
+    font-family: first ;
+    font-size: 4em;
+    }
+    
+#p1{
+    position: relative;
+    top:80px;
+    font-size: 3em;
+    font-family: 'second';
+    color: crimson;
+    left: 25px;
+}
+#p2{
+    left: -640px;
+    position: relative;
+    top: 114px;
+    font-size: 4em;
+    font-family: 'Needleteeth Spooky';
+    color:
+    crimson;
+}
+#ventana{
+    border: 0px solid
+    purple;
+    position: absolute;
+    width: 540px;
+    height: 341px;
+    top: -22px;
+    left: -709px;
+
+
+
+}
+
+
+
+#zombie{position:fixed;
+        top:10px;
+        left: 0px;
+        width: 1350px;
+        height: 700px;
+        visibility: hidden;} 

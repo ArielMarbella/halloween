@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halloween</title>
+    <!--this document is not responsive only can be seen in a pc-->
+   <link href="stylecss/maincss.css" rel="stylesheet">
+   <script  src="./javascript/halloweenscript.js">
+ 
+        
+    
+    
+    </script>
+</head>
+<body>
+        <audio id="sonido">
+               
+                <source src="./ScaryGirl.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+<div id="wrapper">
+    <h1>Fiesta sangrienta</h1>
+    <p id="p1">¿preparado para una fiesta demoniaca?</p>
+
+    <div id="ventana" onclick="mostrar('zombie');sonar('sonido')"></div>
+    <img id = "zombie" src="./gif de miedo.gif" ondblclick = "ocultar('zombie');stop('sonido')" >
+    <p id="p2">¿preparado para una fiesta demoníaca?</p>
+
+</div>
+
+    
+</body>
+</html>
